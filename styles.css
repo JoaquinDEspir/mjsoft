@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Estilo para el header */
+header {
+    background-color: orange;
+}
+
+/* Estilo para el título dentro del header */
+header h1 {
+    padding: 1rem; /* Ajusta el relleno según sea necesario */
+}
+
+/* Estilo para los enlaces del menú de navegación */
+.nav-link {
+    background-color: orange !important; /* !important para sobrescribir los estilos de Bootstrap */
+    color: white !important; /* Cambia el color del texto a blanco */
+    border-radius: 5px; /* Opcional: agrega bordes redondeados */
+    padding: 10px 15px; /* Ajusta el relleno según sea necesario */
+}
+
+/* Estilo para el contenedor del carrusel */
+.container-carousel {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
+/* Estilo para el carrusel */
+.carousel {
+    max-width: 600px; /* Limita el ancho del carrusel a 600px */
+    margin: 0 auto; /* Centra el carrusel dentro del contenedor */
+}
+
+.contacto{
+    text-align: center;
+    margin-top: 20px;
+}
